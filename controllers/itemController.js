@@ -30,7 +30,7 @@ class ItemController {
     return res.json(items)
   }
 
-  async getDevice(req, res) {
+  async getItem(req, res) {
     const {id} = req.params
     const device = await Item.findOne(
       {

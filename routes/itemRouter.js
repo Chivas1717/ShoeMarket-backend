@@ -5,6 +5,6 @@ const deviceController = require('../controllers/itemController')
 
 router.post('/', deviceController.create)
 router.get('/', deviceController.getAll)
-router.get('/:id', deviceController.getDevice)
+router.get('/:id', deviceController.getItem)
 
 module.exports = router
